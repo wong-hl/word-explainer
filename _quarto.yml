@@ -1,0 +1,68 @@
+project:
+  type: website
+
+website:
+  # title: "Word Explainer for Wonder-Driven Computer People"
+  site-url: https://softwaresaved.github.io/up-goer-five/
+  description: "description of the website"
+  favicon: assets/to/the/favicon.svg
+  page-navigation: true
+  back-to-top-navigation: true
+  # comments:
+  #   utterances:
+  #     repo: github-suername/repo-bame
+  #     label: utterances
+  #     theme: body-light
+  #     issue-term: title
+
+  search: 
+    location: navbar
+    type: overlay
+
+  navbar:
+    foreground: primary
+    tools:
+      - icon: github
+        href: https://www.github.com/
+    right:
+      - text: Words Gallery
+        href: words/index.qmd
+      - text: A to Z
+        href: a-to-z/index.qmd
+      - text: About
+        href: about/index.qmd
+
+  page-footer:
+    left: |
+      &copy; 2026 Hui Ling Wong. Licensed under 
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+    right:
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - text: "goes nowhere"
+        href: heaven.qmd
+      - icon: rss
+
+# Theme: Put brand after to allow variable defined in brand to be used in custom scss
+# See: https://github.com/quarto-dev/quarto-web/discussions/1509#discussion-7638646
+format:
+  html:
+    axe: true
+    theme:
+      - cosmo
+      - assets/theme.scss
+      - brand
+    code-link: true
+    code-overflow: wrap
+    code-block-border-left: true
+    code-block-bg: true
+    syntax-highlighting: atom-one
+    # pagetitle: "{{< meta title >}}"
+    lightbox: true
+
+execute:
+  freeze: auto
+
+language: 
+  search-text-placeholder: Search
