@@ -1,0 +1,11 @@
+--- 
+title: "Glossary"
+listing:
+  id: glossary-listing
+  contents: 
+    - "../words/**/*.qmd"
+  type: custom
+  template: glossary.ejs.md
+  sort: "title asc"
+  fields: [title, description, letter]
+---

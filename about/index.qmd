@@ -1,0 +1,19 @@
+---
+title: "About the Project"
+description: |
+    Some description
+
+---
+
+## How did it come about?
+
+CW26
+
+
+## Contributing
+
+How it works? Instructions on how people can interact with the site
+
+## Give it a go!
+
+[simple writer](https://xkcd.com/simplewriter/)
