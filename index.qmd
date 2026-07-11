@@ -1,0 +1,60 @@
+---
+pagetitle: "Helping DRTP"
+page-layout: custom
+---
+
+::: {.hero-section}
+
+::: {.grid}
+
+<!-- left padding column - hidden on mobile, visible on medium screens and up -->
+::: {.g-col-0 .g-col-md-2}
+:::
+
+<!-- centre content - full width on mobile, 8/12 on medium screens and up -->
+::: {.g-col-12 .g-col-md-8 .px-3 .px-md-0}
+
+<!-- Split centre content into a grid -->
+<!-- 1. Image of logo -->
+<!-- 2. Text and H1 heading -->
+::: {.grid .gap-3 .pb-3 .pt-4}
+
+<!-- Center.1 column -->
+::: {.g-col-12 .g-col-sm-6}
+  [<img 
+    src="assets/logos/logo-color-transparent.svg" 
+    style="width: 100%; height: auto;"
+    alt="Word Explainer for Wonder-Driven Computer People"
+  />](words)
+:::
+
+<!-- Center.2 column -->
+::: {.g-col-12 .g-col-sm-6 .mb-2}
+
+# Helping 
+
+Explain what this is
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies eros id lacus blandit, eget luctus elit commodo. Nullam in sapien id nibh hendrerit finibus ac eget mauris. Donec vulputate urna eget risus rhoncus, vitae auctor odio mattis. Nam ut nisl varius, ornare nulla quis, ultricies ex. Etiam ipsum massa, ultrices vitae felis vel, mattis accumsan leo. Aliquam sed sapien malesuada, ornare libero nec, ornare ipsum. Vestibulum imperdiet risus at tortor placerat vestibulum. Aenean ac tincidunt justo. Nunc lectus leo, scelerisque ac metus eu, sollicitudin euismod ante. Cras mollis tortor venenatis purus luctus fermentum in id justo. Ut placerat tellus nec sem egestas venenatis. Phasellus tincidunt nulla ut mauris dictum, sed pulvinar risus tincidunt. Quisque rhoncus tincidunt mi, et cursus nisi convallis quis.
+
+[obligatory xkcd](https://xkcd.com/1133/)
+
+<!-- close center.2 column -->
+:::
+<!-- Close grid within center content -->
+:::
+
+<!-- Close center content -->
+::: 
+<!-- right padding column - hidden on mobile, visible on medium screens and up -->
+::: {.g-col-0 .g-col-md-2}
+:::
+
+:::
+
+
+<!-- hero-section -->
+:::
+
+
