@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  # title: "Word Explainer for Wonder-Driven Computer People"
+  title: "Word Explainer for Wonder-Driven Computer People"
   site-url: https://softwaresaved.github.io/up-goer-five/
   description: "description of the website"
   favicon: assets/to/the/favicon.svg
@@ -15,26 +15,37 @@ website:
   #     theme: body-light
   #     issue-term: title
 
-  search: 
+  repo-url: https://github.com/softwaresaved/up-goer-five
+  repo-actions:
+    - issue
+
+  search:
     location: navbar
     type: overlay
 
   navbar:
+    title: "Word Explainer"
+    logo-alt: Word Explainer for Wonder-Driven Computer People
     foreground: primary
     tools:
       - icon: github
+        aria-label: Link to GitHub repo
+        target: _blank # Opens a new tab
         href: https://www.github.com/
     right:
       - text: Words Gallery
+        aria-label: Link to Gallery containing the words
         href: words/index.qmd
       - text: A to Z
+        aria-label: Link to A to Z of the words
         href: a-to-z/index.qmd
       - text: About
+        aria-label: Link to page about the project
         href: about/index.qmd
 
   page-footer:
     left: |
-      &copy; 2026 Hui Ling Wong. Licensed under 
+      &copy; 2026 Hui Ling Wong. Licensed under
       [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
     right:
       - text: "License"
@@ -58,11 +69,11 @@ format:
     code-block-border-left: true
     code-block-bg: true
     syntax-highlighting: atom-one
-    # pagetitle: "{{< meta title >}}"
+    pagetitle: "{{< meta title >}}"
     lightbox: true
 
 execute:
   freeze: auto
 
-language: 
+language:
   search-text-placeholder: Search
