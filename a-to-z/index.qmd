@@ -1,8 +1,8 @@
---- 
+---
 title: "Glossary"
 listing:
   id: glossary-listing
-  contents: 
+  contents:
     - "../words/**/*.qmd"
   type: custom
   template: glossary.ejs.md

@@ -27,10 +27,10 @@ typography:
       source: google
     - family: Raleway
       source: google
-    - family: JetBrains Mono 
+    - family: JetBrains Mono
       source: google
   base: Open Sans
-  headings: 
+  headings:
     family: Raleway
     color: primary
     weight: bold

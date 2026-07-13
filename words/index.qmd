@@ -1,7 +1,7 @@
---- 
+---
 title: "Words Explained"
-listing: 
-    contents: 
+listing:
+    contents:
         - "**/*.qmd"
     type: grid
     sort:
@@ -13,7 +13,7 @@ listing:
         - subtitle
         - description
         - image
-format: 
+format:
   html:
     page-layout: full
 ---

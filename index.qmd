@@ -1,5 +1,5 @@
 ---
-pagetitle: "Helping DRTP"
+pagetitle: "Word Explainer for Wonder-Driven Computer People"
 page-layout: custom
 ---
 
@@ -21,8 +21,8 @@ page-layout: custom
 
 <!-- Center.1 column -->
 ::: {.g-col-12 .g-col-sm-6}
-  [<img 
-    src="assets/logos/logo-color-transparent.svg" 
+  [<img
+    src="assets/logos/logo-color-transparent.svg"
     style="width: 100%; height: auto;"
     alt="Word Explainer for Wonder-Driven Computer People"
   />](words)
@@ -31,7 +31,7 @@ page-layout: custom
 <!-- Center.2 column -->
 ::: {.g-col-12 .g-col-sm-6 .mb-2}
 
-# Helping 
+# Helping
 
 Explain what this is
 
@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies ero
 :::
 
 <!-- Close center content -->
-::: 
+:::
 <!-- right padding column - hidden on mobile, visible on medium screens and up -->
 ::: {.g-col-0 .g-col-md-2}
 :::
@@ -56,5 +56,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies ero
 
 <!-- hero-section -->
 :::
-
-
