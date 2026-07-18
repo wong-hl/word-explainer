@@ -36,6 +36,9 @@ website:
       - text: Words Gallery
         aria-label: Link to Gallery containing the words
         href: words/index.qmd
+      - text: Things
+        aria-label: Link to Gallery containing the words
+        href: words/terms/index.qmd
       - text: A to Z
         aria-label: Link to A to Z of the words
         href: a-to-z/index.qmd
