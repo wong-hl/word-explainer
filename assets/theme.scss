@@ -2,6 +2,7 @@
 
 $primary: $brand-dusty-berry;
 $secondary: $brand-warm_teal;
+$tertiary: $brand-antique_gold;
 
 /*-- scss:rules --*/
 
@@ -51,4 +52,30 @@ $secondary: $brand-warm_teal;
 img.thumbnail-image.card-img {
   width: 100%;
   object-fit: contain !important;
+}
+
+.terms-page .definition {
+  border-left: 3px solid $tertiary;
+  border-radius: 2px;
+  padding-left: 0.5rem;
+  display: block;
+
+  margin-bottom: 1rem;
+  margin-left: 0.4rem;
+}
+
+.terms-page .definition p {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  line-height: 1.1;
+  font-weight: bolder;
+}
+
+.terms-page h2 span.word-type {
+  color: $secondary;
+  font-size: 0.7em;
+}
+
+.terms-page h2 {
+  text-transform: lowercase;
 }
