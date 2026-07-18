@@ -5,7 +5,7 @@ website:
   title: "Word Explainer for Wonder-Driven Computer People"
   site-url: https://softwaresaved.github.io/up-goer-five/
   description: "description of the website"
-  favicon: assets/to/the/favicon.svg
+  favicon: assets/logos/favicon.png
   page-navigation: true
   back-to-top-navigation: true
   # comments:
