@@ -8,19 +8,16 @@ listing:
         - "title asc"
     image-placeholder: coming_soon.png
     grid-item-align: left
+    image-height: 200px
     fields:
         - title
         - subtitle
         - description
         - image
+    sort-ui: true
+    filter-ui: true
+    page-size: 18
 format:
   html:
     page-layout: full
 ---
-
-<!-- ::: {#hero-banner .column-screen}
-::: {.grid .column-page}
-::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
-::: {.h1 role="heading" aria-level="1"}
-Gallery
-::: -->

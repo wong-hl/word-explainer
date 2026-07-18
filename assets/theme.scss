@@ -45,4 +45,10 @@ $secondary: $brand-warm_teal;
 
 .card-img {
   border-radius: 10px 10px 0px 0px;
+  object-fit: contain;
+}
+
+img.thumbnail-image.card-img {
+  width: 100%;
+  object-fit: contain !important;
 }
