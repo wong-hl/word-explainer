@@ -33,11 +33,11 @@ website:
         target: _blank # Opens a new tab
         href: https://www.github.com/
     right:
-      - text: Words Gallery
-        aria-label: Link to Gallery containing the words
-        href: words/index.qmd
+      - text: Kinds of People
+        aria-label: Link to Gallery containing the roles
+        href: words/roles/index.qmd
       - text: Things
-        aria-label: Link to Gallery containing the words
+        aria-label: Link to Gallery containing the terminology used
         href: words/terms/index.qmd
       - text: A to Z
         aria-label: Link to A to Z of the words
