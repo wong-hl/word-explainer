@@ -25,7 +25,7 @@ page-layout: custom
     src="assets/logos/logo-color-transparent.svg"
     style="width: 100%; height: auto;"
     alt="Word Explainer for Wonder-Driven Computer People"
-  />](words)
+  />](a-to-z)
 :::
 
 <!-- Center.2 column -->

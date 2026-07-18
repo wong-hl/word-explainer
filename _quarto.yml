@@ -36,8 +36,8 @@ website:
       - text: Kinds of People
         aria-label: Link to Gallery containing the roles
         href: words/roles/index.qmd
-      - text: Things
-        aria-label: Link to Gallery containing the terminology used
+      - text: Words We Use
+        aria-label: Link to listing containing the terminology used
         href: words/terms/index.qmd
       - text: A to Z
         aria-label: Link to A to Z of the words
@@ -57,6 +57,13 @@ website:
       - text: "goes nowhere"
         href: heaven.qmd
       - icon: rss
+
+  open-graph: true
+
+  twitter-card:
+    title: Word Explainer for Wonder-Driven Computer People
+    description: Using the 1000 most common words to explain research software
+    image: assets/logos/logo-color.svg
 
 # Theme: Put brand after to allow variable defined in brand to be used in custom scss
 # See: https://github.com/quarto-dev/quarto-web/discussions/1509#discussion-7638646
