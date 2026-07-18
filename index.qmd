@@ -35,8 +35,7 @@ page-layout: custom
 
 Explain what this is
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultricies eros id lacus blandit, eget luctus elit commodo. Nullam in sapien id nibh hendrerit finibus ac eget mauris. Donec vulputate urna eget risus rhoncus, vitae auctor odio mattis. Nam ut nisl varius, ornare nulla quis, ultricies ex. Etiam ipsum massa, ultrices vitae felis vel, mattis accumsan leo. Aliquam sed sapien malesuada, ornare libero nec, ornare ipsum. Vestibulum imperdiet risus at tortor placerat vestibulum. Aenean ac tincidunt justo. Nunc lectus leo, scelerisque ac metus eu, sollicitudin euismod ante. Cras mollis tortor venenatis purus luctus fermentum in id justo. Ut placerat tellus nec sem egestas venenatis. Phasellus tincidunt nulla ut mauris dictum, sed pulvinar risus tincidunt. Quisque rhoncus tincidunt mi, et cursus nisi convallis quis.
+{{< lipsum 2 >}}
 
 [obligatory xkcd](https://xkcd.com/1133/)
 
