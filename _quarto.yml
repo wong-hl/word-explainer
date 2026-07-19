@@ -16,8 +16,9 @@ website:
       theme: light_protanopia
 
   # repo-url: https://github.com/softwaresaved/up-goer-five
-  # repo-actions:
-  #   - issue
+  repo-url: https://github.com/wong-hl/word-explainer
+  repo-actions:
+    - issue
 
   search:
     location: navbar
@@ -31,7 +32,8 @@ website:
       - icon: github
         aria-label: Link to GitHub repo
         target: _blank # Opens a new tab
-        href: https://www.github.com/
+        # href: https://github.com/wong-hl/word-explainer
+        href: https://github.com/softwaresaved/up-goer-five
     right:
       - text: Kinds of People
         aria-label: Link to Gallery containing the roles
