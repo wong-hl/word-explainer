@@ -1,57 +1,40 @@
 ---
 pagetitle: "Word Explainer for Wonder-Driven Computer People"
-page-layout: custom
+page-layout: full
 lightbox: auto
 comments: false
+format:
+  html:
+    fig-responsive: true
 ---
 
-::: {.hero-section}
+```{=html}
+<style>
+h2 {
+  border-bottom: none !important;
+}
+</style>
+```
 
-::: {.grid}
+:::: {layout="[ 45, 55 ]"}
 
-<!-- left padding column - hidden on mobile, visible on medium screens and up -->
-::: {.g-col-0 .g-col-md-2}
-:::
+::: {#first-column}
 
-<!-- centre content - full width on mobile, 8/12 on medium screens and up -->
-::: {.g-col-12 .g-col-md-8 .px-3 .px-md-0}
-
-<!-- Split centre content into a grid -->
-<!-- 1. Image of logo -->
-<!-- 2. Text and H1 heading -->
-::: {.grid .gap-3 .pb-3 .pt-4}
-
-<!-- Center.1 column -->
-::: {.g-col-12 .g-col-sm-6}
-
-  [![](assets/logos/logo-color-transparent.svg){.nolightbox fig-alt="Word Explainer for Wonder-Driven Computer People" width=100% height=auto}](a-to-z/)
+![](assets/logos/logo-color-transparent.svg){.nolightbox fig-alt="Word Explainer for Wonder-Driven Computer People" width=100% height=auto}
 
 :::
 
-<!-- Center.2 column -->
-::: {.g-col-12 .g-col-sm-6 .mb-2}
+::: {#second-column}
 
-# Helping
+## Headline
+
+why is this going above
 
 Explain what this is
 
 {{< lipsum 2 >}}
 
 [obligatory xkcd](https://xkcd.com/1133/)
-
-<!-- close center.2 column -->
-:::
-<!-- Close grid within center content -->
 :::
 
-<!-- Close center content -->
-:::
-<!-- right padding column - hidden on mobile, visible on medium screens and up -->
-::: {.g-col-0 .g-col-md-2}
-:::
-
-:::
-
-
-<!-- hero-section -->
-:::
+::::
