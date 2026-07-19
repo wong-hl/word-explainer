@@ -1,4 +1,0 @@
-- source: project
-  gh-pages:
-    - id: wong-hl/word-explainer
-      url: 'https://wong-hl.github.io/word-explainer/'
