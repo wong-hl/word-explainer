@@ -1,6 +1,13 @@
 ---
 title: {{ term_name }}
 pagetitle: {{ term_name }} - term
+categories:
+  {% if is_noun -%}
+  - noun
+  {% endif %}
+  {%- if is_verb -%}
+  - verb
+  {% endif %}
 ---
 
 {% if is_noun -%}
