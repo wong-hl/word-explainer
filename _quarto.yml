@@ -3,8 +3,8 @@ project:
 
 website:
   title: "Word Explainer for Wonder-Driven Computer People"
-  site-url: https://softwaresaved.github.io/up-goer-five/
-  description: "description of the website"
+  # site-url: https://softwaresaved.github.io/up-goer-five/
+  # description: "description of the website"
   favicon: assets/logos/favicon.png
   page-navigation: true
   back-to-top-navigation: true
@@ -15,9 +15,9 @@ website:
   #     theme: body-light
   #     issue-term: title
 
-  repo-url: https://github.com/softwaresaved/up-goer-five
-  repo-actions:
-    - issue
+  # repo-url: https://github.com/softwaresaved/up-goer-five
+  # repo-actions:
+  #   - issue
 
   search:
     location: navbar
