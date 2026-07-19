@@ -1,6 +1,7 @@
 ---
 pagetitle: "Word Explainer for Wonder-Driven Computer People"
 page-layout: custom
+lightbox: auto
 comments: false
 ---
 
@@ -22,11 +23,9 @@ comments: false
 
 <!-- Center.1 column -->
 ::: {.g-col-12 .g-col-sm-6}
-  [<img
-    src="assets/logos/logo-color-transparent.svg"
-    style="width: 100%; height: auto;"
-    alt="Word Explainer for Wonder-Driven Computer People"
-  />](a-to-z)
+
+  [![](assets/logos/logo-color-transparent.svg){.nolightbox fig-alt="Word Explainer for Wonder-Driven Computer People" width=100% height=auto}](a-to-z/)
+
 :::
 
 <!-- Center.2 column -->
