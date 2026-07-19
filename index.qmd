@@ -20,7 +20,7 @@ h2 {
 
 ::: {#first-column}
 
-![](assets/logos/logo-color-transparent.svg){.nolightbox fig-alt="Word Explainer for Wonder-Driven Computer People" width=100% height=auto}
+[![](assets/logos/logo-color-transparent.svg){.nolightbox fig-alt="Word Explainer for Wonder-Driven Computer People" width=100% height=auto}](a-to-z/)
 
 :::
 
@@ -28,9 +28,7 @@ h2 {
 
 ## Headline
 
-why is this going above
-
-Explain what this is
+Must be a h2 to get it to appear here, a h1 will be above both the image and text
 
 {{< lipsum 2 >}}
 
