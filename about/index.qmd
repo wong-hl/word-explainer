@@ -2,7 +2,7 @@
 title: "About the Project"
 description: |
     Some description
-
+comments: false
 ---
 
 ## How did it come about?

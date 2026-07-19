@@ -11,4 +11,5 @@ listing:
   template: glossary.ejs.md
   sort: "title asc"
   fields: [title, description, letter]
+comments: false
 ---

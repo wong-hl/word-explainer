@@ -1,6 +1,7 @@
 ---
 pagetitle: "Word Explainer for Wonder-Driven Computer People"
 page-layout: custom
+comments: false
 ---
 
 ::: {.hero-section}

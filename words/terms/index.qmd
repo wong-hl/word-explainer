@@ -19,4 +19,5 @@ listing:
 format:
   html:
     page-layout: full
+comments: false
 ---

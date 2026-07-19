@@ -8,12 +8,12 @@ website:
   favicon: assets/logos/favicon.png
   page-navigation: true
   back-to-top-navigation: true
-  # comments:
-  #   utterances:
-  #     repo: github-suername/repo-bame
-  #     label: utterances
-  #     theme: body-light
-  #     issue-term: title
+  comments:
+    giscus:
+      repo: wong-hl/word-explainer
+      reactions-enabled: true
+      loading: lazy
+      theme: light_protanopia
 
   # repo-url: https://github.com/softwaresaved/up-goer-five
   # repo-actions:
