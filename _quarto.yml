@@ -54,8 +54,6 @@ website:
       - text: "License"
         aria-label: "License Details"
         href: license.qmd
-      - text: "goes nowhere"
-        href: heaven.qmd
       - icon: rss
 
   open-graph: true
