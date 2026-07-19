@@ -93,6 +93,8 @@ def term(
                 "None of the definitions or descriptions have been defined"
             )
         case (x, None, _, _) | (_, _, x, None) if x is not None:
+            raise ValueError("Definition defined but not the description")
+        case (None, x, _, _) | (_, _, None, x) if x is not None:
             raise ValueError("Description defined but not the definition")
         case _:
             ...
