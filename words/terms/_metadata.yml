@@ -1,5 +1,0 @@
-format:
-    html:
-        body-classes: terms-page
-        page-layout: full
-axe: true
