@@ -3,7 +3,10 @@ title: "Glossary"
 listing:
   id: glossary-listing
   contents:
-    - "../words/**/*.qmd"
+    - "../words/roles/**/*.qmd"
+    - "../words/terms/**/*.qmd"
+    - "!../words/terms/index.qmd"
+    - "!../words/roles/index.qmd"
   type: custom
   template: glossary.ejs.md
   sort: "title asc"
