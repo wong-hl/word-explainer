@@ -1,6 +1,8 @@
 ---
 title: University
 pagetitle: University - term
+categories:
+  - noun
 ---
 
 

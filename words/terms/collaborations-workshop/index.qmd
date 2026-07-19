@@ -1,6 +1,8 @@
 ---
 title: Collaborations Workshop
 pagetitle: Collaborations Workshop - term
+categories:
+  - noun
 ---
 
 

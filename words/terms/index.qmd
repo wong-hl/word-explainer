@@ -12,7 +12,7 @@ listing:
         - title
         - subtitle
         - description
-        - image
+        - categories
     sort-ui: true
     filter-ui: true
     page-size: 18

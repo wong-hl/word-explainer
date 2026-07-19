@@ -1,6 +1,8 @@
 ---
 title: Community
 pagetitle: Community - term
+categories:
+  - noun
 ---
 
 

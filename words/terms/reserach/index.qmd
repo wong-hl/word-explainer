@@ -1,6 +1,9 @@
 ---
 title: Research
 pagetitle: Research - terms
+categories:
+  - noun
+  - verb
 ---
 
 ## {{< meta title >}} [the name of a thing]{.word-type}

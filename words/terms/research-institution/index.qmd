@@ -1,6 +1,8 @@
 ---
 title: Research Institution
 pagetitle: Research Institution - term
+categories:
+  - noun
 ---
 
 
